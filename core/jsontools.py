@@ -28,7 +28,7 @@ def load(*args, **kwargs):
         value = json.loads(*args, **kwargs)
     except:
         if not silent:
-            logger.error("**NOT** able to load the JSON")
+            logger.error("**NOT** able to load the JSON, calling json.loads with args %s and kwargs %s", args, kwargs)
             logger.error(traceback.format_exc())
             if len(stack()) > 1:
                 logger.error('ERROR STACK {}'.format(stack()[2]) )
