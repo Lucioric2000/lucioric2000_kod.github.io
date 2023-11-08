@@ -27,7 +27,7 @@
                 <aligny>center</aligny>
                 <font>font13</font>
                 <textcolor>80FFFFFF</textcolor>
-                <label>$ADDON[plugin.video.kod 70830]</label>
+                <label>$ADDON[plugin.video.lo-scienziato-pazzo 70830]</label>
             </control>
             <!-- main selection window -->
             <control type="group">

@@ -1,8 +1,8 @@
 #!/bin/bash
-rm tests/home/userdata/addon_data/plugin.video.kod/settings_channels/*.json
-rm tests/home/userdata/addon_data/plugin.video.kod/settings_servers/*.json
-rm tests/home/userdata/addon_data/plugin.video.kod/cookies.dat
-rm tests/home/userdata/addon_data/plugin.video.kod/kod_db.sqlite
+rm tests/home/userdata/addon_data/plugin.video.lo-scienziato-pazzo/settings_channels/*.json
+rm tests/home/userdata/addon_data/plugin.video.lo-scienziato-pazzo/settings_servers/*.json
+rm tests/home/userdata/addon_data/plugin.video.lo-scienziato-pazzo/cookies.dat
+rm tests/home/userdata/addon_data/plugin.video.lo-scienziato-pazzo/kod_db.sqlite
 python -m pip install --upgrade pip
 pip install -U sakee
 pip install -e git+https://github.com/mac12m99/HtmlTestRunner.git@master#egg=html-testRunner
